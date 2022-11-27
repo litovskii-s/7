@@ -1,0 +1,32 @@
+.contact {
+    display: flex;
+}
+.contact li:not(:last-child) {
+    margin-right: 30px;
+}
+.contact__connection {
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    display: flex;
+    gap: 10px;
+    padding: 32px 0;
+    justify-content: flex-end;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contact__connection:hover {
+    color: var(--brand-color);
+}
+.contact__connection:hover .net__icon{
+    fill: var(--brand-color);
+}
+.contact__connection:focus {
+    color: var(--brand-color);
+}
+.contact__connection:focus  .net__icon{
+    fill: var(--brand-color);
+}

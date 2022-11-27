@@ -1,0 +1,35 @@
+.work {
+    padding-bottom: 94px;
+}
+.work__header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    color: var(--header-color);
+    margin-bottom: 50px;
+    text-align: center;
+}
+.work__img {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.work__list {
+    position: relative;
+}
+.work__description {
+    display: flex;
+    color: var(--background-color);
+    background-color: var(--work-description-color);
+    text-align: center;
+    justify-content: center;
+    padding: 27px 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

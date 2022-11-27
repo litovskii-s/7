@@ -1,0 +1,31 @@
+.join__header {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color:var(--background-color);
+}
+.join__social {
+    display: flex;
+    gap: 10px;
+}
+.join__link {
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color:var(--footer-icons);
+    fill: var(--background-color);
+    display: flex;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+}
+.join__link:hover {
+    background-color:var(--brand-color)
+}
+.join__link:focus {
+    background-color:var(--brand-color)
+}
